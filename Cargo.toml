@@ -1,0 +1,20 @@
+[package]
+name = "metrics-from-status"
+version = "0.1.0"
+authors = ["Robert Tarrall <robert@tarrall.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.9"
+actix-rt = "1.0"
+actix-web = "2.0"
+csv = "1.1"
+env_logger = "0.7"
+lazy_static = "*"
+log = "*"
+prometheus = "0.9"
+prometheus-static-metric = "0.2"
+serde = { version = "1", features = ["derive"] }
+structopt = "~0.3.13"
